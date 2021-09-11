@@ -91,6 +91,9 @@
   margin: 0;
   padding: 0; }
 
+.body-container {
+  position: relative; }
+
 img {
   height: auto;
   max-width: 100%; }
@@ -234,7 +237,7 @@ p {
     align-items: center;
     padding: 1rem 0; }
     #main-nav .main-nav .logo {
-      transition: all 300ms; }
+      transition: all 450ms; }
       #main-nav .main-nav .logo:hover {
         transform: scale(1.1); }
     #main-nav .main-nav ul {
@@ -285,9 +288,10 @@ p {
           color: #333; }
         #main-nav .main-nav ul a.current {
           background: #555;
-          border-radius: 10px; }
+          border-radius: 10px;
+          transition: all 450ms; }
           #main-nav .main-nav ul a.current:hover {
-            color: #f4f4f4; }
+            background-color: #f4f4f4; }
           #main-nav .main-nav ul a.current:hover:before {
             transition: transform 450ms;
             transform-origin: top left;
@@ -312,7 +316,8 @@ p {
     #contact-top .social-contact ul .fab {
       border-radius: 100px;
       border: 2px solid #f4f4f4;
-      padding: .5rem; }
+      padding: .5rem;
+      transition: all 450ms; }
       #contact-top .social-contact ul .fab:hover {
         background: #6DA4BF;
         color: #f4f4f4; }
@@ -324,7 +329,8 @@ p {
     align-items: center; }
   #contact-top a {
     color: #f4f4f4;
-    font-weight: 500; }
+    font-weight: 500;
+    transition: all 450ms; }
     #contact-top a:hover {
       color: #6DA4BF; }
 
@@ -736,7 +742,8 @@ p {
     #main-footer .footer-content .social .fab {
       border: 2px #f4f4f4 solid;
       border-radius: 50%;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      transition: all 450ms; }
       #main-footer .footer-content .social .fab:hover {
         background: #6DA4BF; }
     #main-footer .footer-content a {
@@ -774,6 +781,17 @@ p {
     text-decoration: none;
     font-weight: bold;
     color: #6DA4BF; }
+
+.accessibility {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 10;
+  overflow-x: hidden; }
+  .accessibility .fas {
+    color: #6DA4BF; }
+    .accessibility .fas.clicked html {
+      font-size: 40px; }
 
 #services {
   display: flex;
