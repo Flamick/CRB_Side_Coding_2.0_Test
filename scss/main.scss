@@ -965,7 +965,7 @@ padding: 2rem 0;
 .accessibility {
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
+    left: 1rem;
     z-index: 10;
     overflow-x: hidden;
 
@@ -976,8 +976,10 @@ padding: 2rem 0;
         border-radius: 50%;
         -webkit-tap-highlight-color: transparent;
 
-        &:hover {
-            cursor: pointer;
+        @media (hover: hover) and (pointer: fine) {
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
