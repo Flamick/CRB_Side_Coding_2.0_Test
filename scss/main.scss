@@ -133,6 +133,7 @@ p {
     z-index: 3;
     background-color: $medium-complimentary;
     transition: all .3s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
 
     .current-mobile {
         color: $primary-color;
@@ -972,6 +973,7 @@ padding: 2rem 0;
         font-size: 3rem;
         background-color: $dark-color;
         border-radius: 50%;
+        -webkit-tap-highlight-color: transparent;
 
         &:hover {
             cursor: pointer;

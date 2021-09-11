@@ -190,7 +190,8 @@ p {
   min-height: 100vh;
   z-index: 3;
   background-color: #373D40;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease-in-out;
+  -webkit-tap-highlight-color: transparent; }
   #mobile-menu .current-mobile {
     color: #6DA4BF; }
   #mobile-menu .navlink-1 {
@@ -790,7 +791,8 @@ p {
     color: #6DA4BF;
     font-size: 3rem;
     background-color: #333;
-    border-radius: 50%; }
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent; }
     .accessibility .fas:hover {
       cursor: pointer; }
 
