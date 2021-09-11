@@ -99,7 +99,8 @@ ul {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
   a:visited {
     text-decoration: none; }
 
