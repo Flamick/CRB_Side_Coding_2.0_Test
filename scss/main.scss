@@ -8,10 +8,6 @@
     padding: 0;
 }
 
-.body-container {
-    position: relative;
-}
-
 img {
     height: auto;
     max-width: 100%;
@@ -972,9 +968,12 @@ padding: 2rem 0;
 
     .fas {
         color: $primary-color;
+        font-size: 3rem;
+        background-color: $dark-color;
+        border-radius: 50%;
 
-        &.clicked html {
-            font-size: 40px;
+        &:hover {
+            cursor: pointer;
         }
     }
 }

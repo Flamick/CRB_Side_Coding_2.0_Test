@@ -87,13 +87,15 @@ function checkAllH1() {
     if (!toggle) {
         for(var i = 0; i < h1.length; i++ ) {
             var h1 = h1[i];
-            h1.style.fontSize = "4rem";
+            h1.style.fontSize = "3.5rem";
+            h1.style.lineHeight = "3.5rem"
             toggle = true;
         }
     }   else   {
         for(var i = 0; i < h1.length; i++ ) {
             var h1 = h1[i];
             h1.style.fontSize = "3rem";
+            h1.style.lineHeight = "3rem"
             toggle = false;
         }
     }

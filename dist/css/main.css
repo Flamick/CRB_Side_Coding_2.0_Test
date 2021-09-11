@@ -91,9 +91,6 @@
   margin: 0;
   padding: 0; }
 
-.body-container {
-  position: relative; }
-
 img {
   height: auto;
   max-width: 100%; }
@@ -789,9 +786,12 @@ p {
   z-index: 10;
   overflow-x: hidden; }
   .accessibility .fas {
-    color: #6DA4BF; }
-    .accessibility .fas.clicked html {
-      font-size: 40px; }
+    color: #6DA4BF;
+    font-size: 3rem;
+    background-color: #333;
+    border-radius: 50%; }
+    .accessibility .fas:hover {
+      cursor: pointer; }
 
 #services {
   display: flex;
