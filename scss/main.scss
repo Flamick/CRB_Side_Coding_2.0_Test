@@ -1290,4 +1290,47 @@ padding: 2rem 0;
     }
 }
 
+// 404 page
+#error {
+    padding: 2rem 0 3rem 0;
+
+    h1 {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    h3 {
+        text-align: center;
+        padding: 1rem 0 2rem;
+
+        a {
+            color: $primary-color;
+        }
+    }
+
+    .error-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-logo-title {
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+
+    .error-img {
+        height: auto;
+        min-width: 100%;
+        padding: 1rem 0;
+
+        img {
+            min-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
 @import "_media";
