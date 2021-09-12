@@ -997,6 +997,32 @@ p {
       border-radius: 50%;
       box-shadow: 1px 1px 10px 5px #555; }
 
+#error {
+  padding: 2rem 0 3rem 0; }
+  #error h1 {
+    text-align: center;
+    padding: 1rem 0; }
+  #error h3 {
+    text-align: center;
+    padding: 1rem 0 2rem; }
+    #error h3 a {
+      color: #6DA4BF; }
+  #error .error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #error .small-logo-title {
+    font-size: 1.1rem;
+    font-weight: 800; }
+  #error .error-img {
+    height: auto;
+    min-width: 100%;
+    padding: 1rem 0; }
+    #error .error-img img {
+      min-width: 100%;
+      height: auto; }
+
 @media screen and (max-width: 320px) {
   #home-describe .what-side-content ul {
     padding: 1rem; }
