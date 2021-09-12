@@ -1165,11 +1165,13 @@ p {
     padding: 1rem 0 !important; }
   #home-describe .home-web-design h3 {
     padding: 1rem 0 !important; }
-  #home-describe .home-web-design ul li .flex-container {
-    flex-direction: row;
-    gap: 4rem; }
-  #home-describe .home-web-design ul li:nth-child(2) .flex-container {
-    flex-direction: row-reverse; }
+  #home-describe .home-web-design ul li {
+    padding: 1rem 0 !important; }
+    #home-describe .home-web-design ul li .flex-container {
+      flex-direction: row;
+      gap: 4rem; }
+    #home-describe .home-web-design ul li:nth-child(2) .flex-container {
+      flex-direction: row-reverse; }
   #home-describe .home-web-design .img-container {
     min-width: 30%; }
   #home-describe #process {
