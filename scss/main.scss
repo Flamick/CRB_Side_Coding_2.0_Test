@@ -418,12 +418,45 @@ p {
                 padding: 1rem 0;
             }
 
+            ul {
+                padding: 1rem;
+            }
+
             ol {
                 padding: 1rem;
             }
 
             li {
                 padding: .5rem 0;
+            }
+        }
+
+        .what-content {
+            .sales-img {
+                min-width: 50%;
+                height: auto;
+                display: block;
+
+                img {
+                    min-width: 100%;
+                    height: auto;
+                }
+            }
+
+            ul {
+                li {
+                    p {
+                        text-align: center;
+                        padding: 0;
+                    }
+
+                    &:nth-child(4),
+                    &:nth-child(5) {
+                        img {
+                            padding: 2rem 0;
+                        }
+                    }
+                }
             }
         }
 

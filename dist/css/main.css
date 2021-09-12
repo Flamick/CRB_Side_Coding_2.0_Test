@@ -407,6 +407,11 @@ p {
   #home-describe .why-content p,
   #home-describe #process-1 p {
     padding: 1rem 0; }
+  #home-describe .what-content ul,
+  #home-describe .home-web-design ul,
+  #home-describe .why-content ul,
+  #home-describe #process-1 ul {
+    padding: 1rem; }
   #home-describe .what-content ol,
   #home-describe .home-web-design ol,
   #home-describe .why-content ol,
@@ -417,6 +422,21 @@ p {
   #home-describe .why-content li,
   #home-describe #process-1 li {
     padding: .5rem 0; }
+
+#home-describe .what-content .sales-img {
+  min-width: 50%;
+  height: auto;
+  display: block; }
+  #home-describe .what-content .sales-img img {
+    min-width: 100%;
+    height: auto; }
+
+#home-describe .what-content ul li p {
+  text-align: center;
+  padding: 0; }
+
+#home-describe .what-content ul li:nth-child(4) img, #home-describe .what-content ul li:nth-child(5) img {
+  padding: 2rem 0; }
 
 #home-describe .what-side-content {
   padding: 2rem 0 3rem 0; }
