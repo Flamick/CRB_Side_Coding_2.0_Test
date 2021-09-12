@@ -182,6 +182,19 @@
     }
 
     #home {
+        &-hero {
+            .hero-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .btn {
+                width: 60%;
+            }
+        }
+
         &-describe {
             .grid-container {
                 grid-template-columns: repeat(3, 1fr);

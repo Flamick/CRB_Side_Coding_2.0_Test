@@ -1292,6 +1292,13 @@ p {
     display: none; }
   #main-nav {
     display: block; }
+  #home-hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #home-hero .btn {
+    width: 60%; }
   #home-describe .grid-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto, 1fr);
