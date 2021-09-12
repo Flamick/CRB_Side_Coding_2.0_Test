@@ -101,6 +101,20 @@
             color: $medium-complimentary;
         }
     }
+
+    &-primary {
+        @extend %btn-shared;
+        color: $dark-color;
+        background: $primary-color;
+        transition: all 450ms;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: $dark-color;
+            color: $light-color;
+        }
+    }
 }
 
 .bottom-line {

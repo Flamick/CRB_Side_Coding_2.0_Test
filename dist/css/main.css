@@ -45,7 +45,7 @@
   color: #333;
   background: #B0C1CA; }
 
-.btn-light, .btn-dark {
+.btn-light, .btn-dark, .btn-primary {
   display: block;
   text-decoration: none;
   padding: 1rem 1.5rem;
@@ -72,6 +72,14 @@
   .btn-dark:hover, .btn-dark:active, .btn-dark:focus {
     background: #f4f4f4;
     color: #373D40; }
+
+.btn-primary {
+  color: #333;
+  background: #6DA4BF;
+  transition: all 450ms; }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #333;
+    color: #f4f4f4; }
 
 .bottom-line {
   height: 2px;
