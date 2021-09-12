@@ -29,7 +29,6 @@ a {
 body {
     font-family: $primary-font;
     color: $dark-color;
-    
 }
 
 h3 {
@@ -431,8 +430,9 @@ p {
             }
         }
 
+        // What content
         .what-content {
-            .sales-img {
+            .img-container {
                 min-width: 50%;
                 height: auto;
                 display: block;
@@ -589,7 +589,6 @@ p {
         .why-content {
             ul {
                 padding: 1rem;
-                list-style: disc;
 
                 li {
                     padding: .5rem 0;
@@ -597,8 +596,65 @@ p {
             }
         }
 
+        .home-web-design {
+            .flex-container {
+                p {
+                    text-align: center;
+
+                    &:last-child {
+                        padding-top: 0;
+                    }
+                }
+
+                .principle-list {
+                    padding-bottom: 0;
+                }
+            }
+
+            .principle-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            & ul li:first-child {
+                padding-bottom: 0;
+
+                p {
+                    padding: 0;
+                }
+            }
+
+            & ul li:nth-child(2) {
+                padding-top: 0;
+
+                h3 {
+                    padding-top: 0;
+                }
+
+                p {
+                    padding-top: 0;
+                }
+            }
+
+            & ul li:nth-child(3) {
+                padding-top: 1rem;
+
+                p {
+                    padding-top: 0;
+                }
+            }
+        }
+
+        
+
         .why-content {
             background: $light-color;
+
+            ul {
+                list-style: disc;
+            }
         }
 
         // Home: Why Side Content
