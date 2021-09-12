@@ -1173,7 +1173,7 @@ p {
     #home-describe .home-web-design ul li:nth-child(2) .flex-container {
       flex-direction: row-reverse; }
   #home-describe .home-web-design .img-container {
-    min-width: 30%; }
+    min-width: 40%; }
   #home-describe #process {
     grid-column: 1 / span 3; }
     #home-describe #process .process {
