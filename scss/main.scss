@@ -247,14 +247,14 @@ p {
                     height: 100%;
                     background: $primary-color;
                     z-index: -1;
-                    transition: transform 450ms;
+                    transition: transform 200ms;
                     transform-origin: bottom right;
                     transform: scale(0);
                     border-radius: 10px;
                 }
 
                 &:hover:before {
-                    transition: transform 450ms;
+                    transition: transform 200ms;
                     transform-origin: top left;
                     transform: scale(1);
                 }
@@ -269,34 +269,34 @@ p {
                     background: transparent;
                     box-sizing: border-box;
                     z-index: -1;
-                    transition: transform 450ms;
+                    transition: transform 200ms;
                     transform-origin: top left;
                     transform: scale(1);
                     border-radius: 10px;
                 }
         
                 &:hover:after {
-                    transition: transform 450ms;
+                    transition: transform 200ms;
                     transform-origin: bottom right;
                     transform: scale(0);
                 }
         
                 &:hover {
-                    transition: all 450ms;
+                    transition: all 200ms;
                     color: $dark-color;
                 }
                 
                 &.current {
                     background: $medium-color;
                     border-radius: 10px;
-                    transition: all 450ms;
+                    transition: all 200ms;
 
                     &:hover {
                         background-color: $light-color;
                     }
 
                     &:hover:before {
-                        transition: transform 450ms;
+                        transition: transform 200ms;
                         transform-origin: top left;
                         transform: scale(0);
                     }

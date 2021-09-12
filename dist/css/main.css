@@ -285,12 +285,12 @@ p {
           height: 100%;
           background: #6DA4BF;
           z-index: -1;
-          transition: transform 450ms;
+          transition: transform 200ms;
           transform-origin: bottom right;
           transform: scale(0);
           border-radius: 10px; }
         #main-nav .main-nav ul a:hover:before {
-          transition: transform 450ms;
+          transition: transform 200ms;
           transform-origin: top left;
           transform: scale(1); }
         #main-nav .main-nav ul a:after {
@@ -303,25 +303,25 @@ p {
           background: transparent;
           box-sizing: border-box;
           z-index: -1;
-          transition: transform 450ms;
+          transition: transform 200ms;
           transform-origin: top left;
           transform: scale(1);
           border-radius: 10px; }
         #main-nav .main-nav ul a:hover:after {
-          transition: transform 450ms;
+          transition: transform 200ms;
           transform-origin: bottom right;
           transform: scale(0); }
         #main-nav .main-nav ul a:hover {
-          transition: all 450ms;
+          transition: all 200ms;
           color: #333; }
         #main-nav .main-nav ul a.current {
           background: #555;
           border-radius: 10px;
-          transition: all 450ms; }
+          transition: all 200ms; }
           #main-nav .main-nav ul a.current:hover {
             background-color: #f4f4f4; }
           #main-nav .main-nav ul a.current:hover:before {
-            transition: transform 450ms;
+            transition: transform 200ms;
             transform-origin: top left;
             transform: scale(0); }
 
