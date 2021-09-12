@@ -110,6 +110,66 @@
             padding: 0 .5rem;
         }
     }
+
+    .item {
+        &-text-wrap {
+            height: auto;
+            padding: 0;
+        }
+
+        & .btn {
+            padding: 1.8rem 3rem;
+            pointer-events: initial;
+        }
+        
+        // Bring in main color overlay
+        &.clicked::after {
+            transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+        }
+    
+        // Scale image on hover
+        &.clicked &-image { 
+            transform: scale(1.2);
+        }
+    
+        // Bring in text on hover
+        &.clicked &-text {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &.clicked .btn {
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%);
+            opacity: 1;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+            // Bring in main color overlay
+            &:hover::after {
+                transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+            }
+        
+            // Scale image on hover
+            &:hover &-image { 
+                transform: scale(1.2);
+            }
+        
+            // Bring in text on hover
+            &:hover &-text {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            &:hover .btn {
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%);
+                opacity: 1;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -208,8 +268,6 @@
         }
     }
 
-
-
     #services {
         .services-grid {
             display: grid;
@@ -221,6 +279,28 @@
                 height: 100%;
                 margin-bottom: 0;
             }
+        }
+    }
+
+    #contact {
+        .form-contents {
+            max-width: 900px;
+        }
+    }
+
+    #work {
+        .items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .item-text-wrap {
+            height: 100%;
+            padding: 3rem 0;
+        }
+
+        .btn {
+            padding: 1rem 1.5rem;
         }
     }
 
