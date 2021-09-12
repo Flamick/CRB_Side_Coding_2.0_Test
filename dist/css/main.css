@@ -1345,6 +1345,8 @@ p {
     #services .services-grid .card {
       height: 100%;
       margin-bottom: 0; }
+  #services .btn {
+    width: 60%; }
   #contact .form-contents {
     max-width: 900px; }
   #work .items {
